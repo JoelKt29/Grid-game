@@ -1,8 +1,8 @@
 # Joel Khayat & Allan Pariente
 import pygame
 import time
-from code.solver import SolverGreedy, SolverMaxMatching, SolverHungarian, PlayerGame
-from code.grid import Grid
+from solver import SolverGreedy, SolverMaxMatching, SolverHungarian, PlayerGame
+from grid import Grid
 
 class PlotResolution():
     "class plotting the graphic representation of the resolution"
