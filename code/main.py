@@ -12,8 +12,8 @@
  #######  ###    ###   ########  ###           ###  #######
 #############################################################
 
-from grid import Grid
-from solver import *
+from code.grid import Grid
+from code.solver import *
 from graphic_version import PlotResolution
 """
 grid = Grid(2, 3)

@@ -6,7 +6,7 @@ sys.path.append("code/")
 import unittest 
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from hungarian_algo import HungarianAlgorithm
+from code.hungarian_algo import HungarianAlgorithm
 
 class Test_Hungarian(unittest.TestCase):
     def test(self):

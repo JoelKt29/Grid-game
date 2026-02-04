@@ -4,7 +4,7 @@ import sys
 sys.path.append("code/")
 
 import unittest 
-from grid import Grid
+from code.grid import Grid
 
 class Test_GridLoading(unittest.TestCase):
     def test_grid0(self):

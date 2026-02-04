@@ -1,11 +1,11 @@
 # This will work if ran from the root folder
 # Joel Khayat and Allan Pariente
-from grid import *
+from code.grid import *
 from numpy import sort
 import numpy as np
 from scipy.optimize import linear_sum_assignment
-from ford_fulkerson_algo import Graph
-from hungarian_algo import HungarianAlgorithm
+from code.ford_fulkerson_algo import Graph
+from code.hungarian_algo import HungarianAlgorithm
 
 
 class Solver:
